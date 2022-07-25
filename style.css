@@ -1,0 +1,146 @@
+body {
+	background-color: #f2eee4;
+	color: rgb(30,30,30);
+	font-family: 'Nanum Myeongjo', serif;
+	
+}
+
+h1,h2,h3 {
+	font-family: 'Oswald', sans-serif;
+}
+
+
+h1 {
+	color: #6f3820;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 32px;
+	text-transform: uppercase;
+}
+
+h2 { 
+	color:  #846171;
+	font-size:  24px;
+	font-weight: lighter;
+	letter-spacing: 1px;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: #c68273 ;
+ 	font-weight: bolder;
+}
+
+
+
+p {
+	color: rgb(70, 70, 70);
+}
+
+img {
+	border-radius: 50%;
+	width: 200px;	
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.div-subdivision 
+{
+	width: 700px;
+	margin: 100px auto;
+}
+
+@media (max-width: 1400px) {
+
+	.div-subdivision {
+		width: 600px;
+		margin: 10px auto;
+	}
+}
+
+@media (max-width: 1000px) {
+
+	.div-subdivision {
+		width: 500px;
+		margin: 10px auto;
+	}
+}
+
+
+@media (max-width: 700px) {
+
+	.div-subdivision {
+		width: 400px;
+		margin: 10px auto;
+	}
+}
+
+@media (max-width: 550px) {
+
+	.div-subdivision {
+		width: 350px;
+		margin: 10px auto;
+	}
+}
+
+
+.div-subdivision { 
+	background: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+	text-align: center;
+	 
+ }
+
+ #button-grey {
+ 	background-color: #f1ede3;
+ 	padding:  8px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	 }
+
+ #button-grey:hover {
+ 	background-color: rgb(200,200,200);
+ 	padding:  8px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	color: #846171;
+}
+
+
+ #list_inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#list_inline li {
+	display: inline;
+	padding: 20px;
+}
+
+#presentation-subdivision p {
+	margin-bottom: 30px;
+}
+
+#follow-subdivision a {
+ 	background-color: #f1ede3;
+ 	padding:  8px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	 }
+
+#follow-subdivision a:hover {
+ 	background-color: rgb(200,200,200);
+ 	padding:  8px 15px;
+	border-radius: 5px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	color: #846171;
+}
+
+#follow-subdivision h2 {
+ 	margin-bottom: 40px;
+	 }
